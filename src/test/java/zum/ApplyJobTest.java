@@ -34,5 +34,24 @@ public class ApplyJobTest extends BaseTest {
         jobApplicationPage.inputFullName(user.getFullName());
 
         jobApplicationPage.inputEmail(user.getEmail());
+
+        jobApplicationPage.inputPhone(user.getPhoneNumber());
+
+        jobApplicationPage.inputCurrentCompany(user.getCurrentCompany());
+
+        jobApplicationPage.inputLinkedInURL(user.getLinkedInURL());
+
+        jobApplicationPage.inputPortfolioURL(user.getPortfolioURL());
+
+        jobApplicationPage.inputAdditionalInformation(user.getAdditionalInformation());
+
+        jobApplicationPage.selectGenderByText("Decline to self-identify");
+
+        jobApplicationPage.selectRaceByText("Two or More Races (Not Hispanic or Latino)");
+
+        jobApplicationPage.selectVeteranStatusByText("I am not a veteran");
+
+        jobApplicationPage.clickOnForm();
+
     }
 }

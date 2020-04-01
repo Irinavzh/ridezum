@@ -2,28 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bf22b4fa-beac-4e6e-aa18-7126074033b8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/zum/CareersPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/zum/JobApplicationPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/zum/JobDescriptionPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/zum/JobsLeverCoPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/zum/NotesPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/zum/ApplyJobTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/zum/ApplyTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/zum/ApplyPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/zum/ApplyPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/zum/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/zum/BasePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/zum/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/zum/HomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/zum/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/zum/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/zum/ApplyPageTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/zum/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/zum/BaseTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/zum/Index.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/zum/ApplyPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/zum/ApplyPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/zum/BasePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/zum/BasePage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/zum/HomePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/zum/HomePage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/zum/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/zum/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/zum/ApplyPageTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/zum/BaseTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/zum/BaseTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/zum/Index.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/zum/JobApplicationPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/zum/JobApplicationPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/zum/ApplyJobTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/zum/ApplyJobTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/zum/JobApplicationPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/zum/JobApplicationPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/zum/ApplyJobTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/zum/ApplyJobTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -121,25 +104,25 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state width="624" height="215" key="GridCell.Tab.0.bottom" timestamp="1585714137674">
-      <screen x="0" y="23" width="1440" height="831" />
+    <state width="1020" height="215" key="GridCell.Tab.0.bottom" timestamp="1585769082589">
+      <screen x="0" y="23" width="1440" height="832" />
     </state>
-    <state width="624" height="215" key="GridCell.Tab.0.bottom/0.23.1440.831@0.23.1440.831" timestamp="1585714137674" />
-    <state width="1398" height="215" key="GridCell.Tab.0.bottom/0.23.1440.832@0.23.1440.832" timestamp="1585541849522" />
-    <state width="624" height="215" key="GridCell.Tab.0.center" timestamp="1585714137673">
-      <screen x="0" y="23" width="1440" height="831" />
+    <state width="1020" height="215" key="GridCell.Tab.0.bottom/0.23.1440.831@0.23.1440.831" timestamp="1585768708379" />
+    <state width="1020" height="215" key="GridCell.Tab.0.bottom/0.23.1440.832@0.23.1440.832" timestamp="1585769082589" />
+    <state width="1020" height="215" key="GridCell.Tab.0.center" timestamp="1585769082588">
+      <screen x="0" y="23" width="1440" height="832" />
     </state>
-    <state width="624" height="215" key="GridCell.Tab.0.center/0.23.1440.831@0.23.1440.831" timestamp="1585714137673" />
-    <state width="1398" height="215" key="GridCell.Tab.0.center/0.23.1440.832@0.23.1440.832" timestamp="1585541849521" />
-    <state width="624" height="215" key="GridCell.Tab.0.left" timestamp="1585714137673">
-      <screen x="0" y="23" width="1440" height="831" />
+    <state width="1020" height="215" key="GridCell.Tab.0.center/0.23.1440.831@0.23.1440.831" timestamp="1585768708378" />
+    <state width="1020" height="215" key="GridCell.Tab.0.center/0.23.1440.832@0.23.1440.832" timestamp="1585769082588" />
+    <state width="1020" height="215" key="GridCell.Tab.0.left" timestamp="1585769082588">
+      <screen x="0" y="23" width="1440" height="832" />
     </state>
-    <state width="624" height="215" key="GridCell.Tab.0.left/0.23.1440.831@0.23.1440.831" timestamp="1585714137673" />
-    <state width="1398" height="215" key="GridCell.Tab.0.left/0.23.1440.832@0.23.1440.832" timestamp="1585541849520" />
-    <state width="624" height="215" key="GridCell.Tab.0.right" timestamp="1585714137674">
-      <screen x="0" y="23" width="1440" height="831" />
+    <state width="1020" height="215" key="GridCell.Tab.0.left/0.23.1440.831@0.23.1440.831" timestamp="1585768708378" />
+    <state width="1020" height="215" key="GridCell.Tab.0.left/0.23.1440.832@0.23.1440.832" timestamp="1585769082588" />
+    <state width="1020" height="215" key="GridCell.Tab.0.right" timestamp="1585769082589">
+      <screen x="0" y="23" width="1440" height="832" />
     </state>
-    <state width="624" height="215" key="GridCell.Tab.0.right/0.23.1440.831@0.23.1440.831" timestamp="1585714137673" />
-    <state width="1398" height="215" key="GridCell.Tab.0.right/0.23.1440.832@0.23.1440.832" timestamp="1585541849521" />
+    <state width="1020" height="215" key="GridCell.Tab.0.right/0.23.1440.831@0.23.1440.831" timestamp="1585768708379" />
+    <state width="1020" height="215" key="GridCell.Tab.0.right/0.23.1440.832@0.23.1440.832" timestamp="1585769082589" />
   </component>
 </project>
