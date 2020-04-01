@@ -3,24 +3,14 @@ package zum;
 import org.junit.Assert;
 import org.junit.Test;
 import org.openqa.selenium.By;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.WebDriverWait;
 
-import javax.lang.model.element.Element;
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.List;
 
-public class ApplyPageTest extends BaseTest {
+public class ApplyTest extends BaseTest {
 
     @Test
-    public void testApplyPage() throws InterruptedException {
+    public void testApply() {
 
         HomePage homePage = new HomePage(driver);
-//
-//        ApplyPage applyPage = new ApplyPage(driver);
-
-
 
         ApplyPage applyPage = homePage.clickApplyToDriveButton();
 
@@ -30,18 +20,15 @@ public class ApplyPageTest extends BaseTest {
 
         System.out.println("ApplyPage Title Test Passed");
 
-        Thread.sleep(1000);
-
         driver.switchTo().frame(driver.findElement(By.cssSelector(".iframe-container.m-banner-drive__iframe")));
 
         applyPage.inputFirstName(user.getFirstName());
         applyPage.inputLastName(user.getLastName());
         applyPage.inputEmail(user.getEmail());
         applyPage.inputPhone(user.getPhoneNumber());
-    //        applyPage.selectStateByIndex(3);
-        applyPage.selectStateByName("California");
-
-
-
+        applyPage.selectStateByIndex(3);
+//        applyPage.selectStateByName("California");
+        applyPage.inputZipCode(user.getZipCode());
+        applyPage.inputReferralCode(user.getReferralCode());
     }
 }

@@ -21,10 +21,13 @@ public class BaseTest {
         System.setProperty("webdriver.chrome.driver", "/Users/kotenok/Desktop/driver/chromedriver");
 
         driver = new ChromeDriver();
+
         driver.manage().window().fullscreen();
 
         user = new User("Petr", "Ivanov", "petr@gmail.com", "4012223344",
-                "RI", "02864", "11111");
+                "Fl", "32080", "11111", "Petr Ivanov",
+                "ABC Company", "http://www.linkedin.com/school/6177438\turn:li:organization:6177438",
+                "https://www.google.com/", "My name is Petr Ivanov.");
 
 
         driver.get("https://www.ridezum.com/");

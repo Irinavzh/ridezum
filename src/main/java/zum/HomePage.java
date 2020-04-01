@@ -3,7 +3,6 @@ package zum;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
-import org.openqa.selenium.support.ui.ExpectedConditions;
 
 
 import java.util.List;
@@ -15,15 +14,22 @@ public class HomePage extends BasePage {
     }
 
     @FindBy(css = ".m-btn.front-banner__btn")
-    protected List<WebElement> listButtons;
+    private List<WebElement> listButtons;
+
+    @FindBy(css = ".footer-menu__link")
+    private List<WebElement> linksFooterMenu;
+
 
     public ApplyPage clickApplyToDriveButton() {
-
-        wait.until(ExpectedConditions.elementToBeClickable(listButtons.get(1)));
-
+        waitUntilClickable(listButtons.get(1));
         listButtons.get(1).click();
-
         return new ApplyPage(driver);
+    }
+
+    public CareersPage clickCareersLink() {
+        waitUntilClickable(linksFooterMenu.get(3));
+        linksFooterMenu.get(3).click();
+        return new CareersPage(driver);
     }
 
 }
